@@ -8,8 +8,8 @@ from sklearn.linear_model import LinearRegression
 df = pd.read_csv("Employe Salary Prediction\Employers_data.csv")
 
 # 2. Select feature and target
-X = df[["Experience_Years"]]   # independent variable
-y = df["Salary"]               # dependent variable
+X = df[["Experience_Years"]]   
+y = df["Salary"]               
 
 # 3. Train-Test Split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
