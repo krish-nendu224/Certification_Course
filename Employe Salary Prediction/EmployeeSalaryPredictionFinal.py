@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 
 # 1. Load dataset
-df = pd.read_csv("Employers_data.csv")
+df = pd.read_csv("Employe Salary Prediction\Employers_data.csv")
 
 # 2. Select feature and target
 X = df[["Experience_Years"]]   # independent variable
